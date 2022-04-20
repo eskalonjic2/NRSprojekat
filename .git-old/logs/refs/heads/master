@@ -1,0 +1,63 @@
+0000000000000000000000000000000000000000 2709a1da74231d94b314f1a58cd9c934f8407bef almulalic <almir.mulalic.am@gmail.com> 1620123032 +0200	clone: from https://cinemalux.hopto.org/git/Cinemalux-Project/Cinemalux-API.git
+2709a1da74231d94b314f1a58cd9c934f8407bef aacd47230b8a58cd2d8d261e84048b888ae40475 almulalic <almir.mulalic.am@gmail.com> 1620155522 +0200	commit: added current user (token user) in controllers
+aacd47230b8a58cd2d8d261e84048b888ae40475 7be05e978764901e83a60f2594d4ad8a28ee1a59 almulalic <almir.mulalic.am@gmail.com> 1620169625 +0200	commit: finally implemented proper user authorization via roles and authorization attribute
+7be05e978764901e83a60f2594d4ad8a28ee1a59 94219d4b29f91c089ce88b233fe67a17c086596c almulalic <almir.mulalic.am@gmail.com> 1620169641 +0200	commit: renamed authenticator
+94219d4b29f91c089ce88b233fe67a17c086596c 36b9852e9bf8c534029c06e8aba1809ef9903967 almulalic <almir.mulalic.am@gmail.com> 1620171606 +0200	commit: removed hardcoded json token data and add current data, authentication and authorization development should be completed
+36b9852e9bf8c534029c06e8aba1809ef9903967 66a01b9c8d006618336cd5c2b01fcd8241363c00 almulalic <almir.mulalic.am@gmail.com> 1620216430 +0200	commit: added test enviorment and first tests
+66a01b9c8d006618336cd5c2b01fcd8241363c00 160f8e4d9264d921becb23b5734e1a64397bbffe almulalic <almir.mulalic.am@gmail.com> 1620236897 +0200	commit: configured tests
+160f8e4d9264d921becb23b5734e1a64397bbffe 150704a2bda0ac23d334e2de28dce6babc7b8f70 almulalic <almir.mulalic.am@gmail.com> 1620248569 +0200	commit: allowed /api/ to access without token
+150704a2bda0ac23d334e2de28dce6babc7b8f70 a76765cd22380f2bf3d98a5c325a44a6b5e79a84 almulalic <almir.mulalic.am@gmail.com> 1620255557 +0200	commit: swagger fix
+a76765cd22380f2bf3d98a5c325a44a6b5e79a84 6ca1b0f662021354203ea9368c6209e6d14e37c7 almulalic <almir.mulalic.am@gmail.com> 1620255826 +0200	commit: swagger fix v2
+6ca1b0f662021354203ea9368c6209e6d14e37c7 63f48ee8b5a5650fb163f253f94e07f5d23a3783 almulalic <almir.mulalic.am@gmail.com> 1620256721 +0200	commit: swagger fix v3
+63f48ee8b5a5650fb163f253f94e07f5d23a3783 be0ceae0d00fbb777c1e721e0bb7e530bf8aa77f almulalic <almir.mulalic.am@gmail.com> 1620257351 +0200	commit: swagger fix v4
+be0ceae0d00fbb777c1e721e0bb7e530bf8aa77f 5976f2bbde53c1e007d4545f28483b743bd500a3 almulalic <almir.mulalic.am@gmail.com> 1620258404 +0200	commit: swagger fix v5
+5976f2bbde53c1e007d4545f28483b743bd500a3 24095a01ba27679f64ad00cf97006b5b226d4f7c almulalic <almir.mulalic.am@gmail.com> 1620481370 +0200	commit: added reservation methods
+24095a01ba27679f64ad00cf97006b5b226d4f7c 6913aa460cf38f39d4c84343998ec0ccd479c0f4 almulalic <almir.mulalic.am@gmail.com> 1620561507 +0200	commit: imported new database changes, refactored reservations
+6913aa460cf38f39d4c84343998ec0ccd479c0f4 4cfeba0efca95530830dbb58e2013c97e2211059 almulalic <almir.mulalic.am@gmail.com> 1620565429 +0200	commit: redesign reservation add
+4cfeba0efca95530830dbb58e2013c97e2211059 bd29d4851ac7d06792fc1417e89c188e5687d486 almulalic <almir.mulalic.am@gmail.com> 1620579835 +0200	commit: added modify reservation
+bd29d4851ac7d06792fc1417e89c188e5687d486 82469b592abd401514f52c9152bebfb17cc6ca6b almulalic <almir.mulalic.am@gmail.com> 1620579911 +0200	commit (merge): nadir pull
+82469b592abd401514f52c9152bebfb17cc6ca6b 00617688d67fd266a9db174c6865b672c46e96d9 almulalic <almir.mulalic.am@gmail.com> 1620579970 +0200	commit (merge): merge
+00617688d67fd266a9db174c6865b672c46e96d9 30fdd20995d84aa37e0a6a92b46460af0f4cc5f8 almulalic <almir.mulalic.am@gmail.com> 1620604689 +0200	commit: added rest of reservation service
+30fdd20995d84aa37e0a6a92b46460af0f4cc5f8 8ad24d368164f09f56f74a91d69ad7b4f08e5b48 almulalic <almir.mulalic.am@gmail.com> 1620604699 +0200	commit (merge): merge
+8ad24d368164f09f56f74a91d69ad7b4f08e5b48 f819e53066e4228e16536456a2d753dd4de16d05 almulalic <almir.mulalic.am@gmail.com> 1620604875 +0200	commit: minor ticker service refactorings
+f819e53066e4228e16536456a2d753dd4de16d05 9207479b7de8944e4d4a79d8a88967abe1f57d9b almulalic <almir.mulalic.am@gmail.com> 1620607540 +0200	commit: implemented ICreatable, IModifiable and IArchivable interfaces, made all appropriate classes derive from it and with that fixed the archive problem
+9207479b7de8944e4d4a79d8a88967abe1f57d9b f585deec576e221c1605e00249ff91c69751eac7 almulalic <almir.mulalic.am@gmail.com> 1620739715 +0200	commit: added Dockerfile
+f585deec576e221c1605e00249ff91c69751eac7 5b669eebbade3b2743e5185412f3cc45803c009b almulalic <almir.mulalic.am@gmail.com> 1620741880 +0200	commit: fixed tests
+5b669eebbade3b2743e5185412f3cc45803c009b 594c433510dc3ffbe446e5450cce00f14329372c almulalic <almir.mulalic.am@gmail.com> 1620750108 +0200	commit: database modifications
+594c433510dc3ffbe446e5450cce00f14329372c 715eb8816e0461abbd4534c65192b53579471005 almulalic <almir.mulalic.am@gmail.com> 1620757670 +0200	pull: Fast-forward
+715eb8816e0461abbd4534c65192b53579471005 6af6c2ccfd765bfb1e01556c3faaa28c2ea29016 almulalic <almir.mulalic.am@gmail.com> 1620775773 +0200	commit: added screening service
+6af6c2ccfd765bfb1e01556c3faaa28c2ea29016 aadfdd7aa1a9958af81a5ad776a7760543bc1437 almulalic <almir.mulalic.am@gmail.com> 1620775804 +0200	commit (merge): merge
+aadfdd7aa1a9958af81a5ad776a7760543bc1437 cfd2f2aab4707185b4269bed0eeee14878892cff almulalic <almir.mulalic.am@gmail.com> 1620780007 +0200	commit: small code refactorings and cleanups
+cfd2f2aab4707185b4269bed0eeee14878892cff 1d9a4aaac5e011894eb0e751d6d494d6394bccdb almulalic <almir.mulalic.am@gmail.com> 1621295203 +0200	commit: added types service and controller
+1d9a4aaac5e011894eb0e751d6d494d6394bccdb 04fda49f9db0c1f99866952e81f0b7d50cf035ca almulalic <almir.mulalic.am@gmail.com> 1621367167 +0200	commit: code refactoring for services
+04fda49f9db0c1f99866952e81f0b7d50cf035ca 60ad3bb1d1013f6cfa2f747db98a45fb7711d7be almulalic <almir.mulalic.am@gmail.com> 1621384597 +0200	commit: added halls service
+60ad3bb1d1013f6cfa2f747db98a45fb7711d7be e88aff232f9b619603a58fe8cbea209d800866d4 almulalic <almir.mulalic.am@gmail.com> 1622579175 +0200	commit: added web context and user contexT
+e88aff232f9b619603a58fe8cbea209d800866d4 68a9f1d39f9ab78570a3f4d122c37698287c29ae almulalic <almir.mulalic.am@gmail.com> 1622586789 +0200	commit: added web context and user contexT
+68a9f1d39f9ab78570a3f4d122c37698287c29ae 6d6a8734f1fd8ea9f955e59def788b9072a7c0dc almulalic <almir.mulalic.am@gmail.com> 1622638664 +0200	commit: added get all for reservations, implemented grid system for tableS
+6d6a8734f1fd8ea9f955e59def788b9072a7c0dc 2faf430680bf839ed71fd398dbed1c1029817982 almulalic <almir.mulalic.am@gmail.com> 1622677827 +0200	commit: added new web catalogue
+2faf430680bf839ed71fd398dbed1c1029817982 836a0dea0ef05a2fee55713409d4ce85894788eb almulalic <almir.mulalic.am@gmail.com> 1622852649 +0200	commit: merged web and organization cataloge
+836a0dea0ef05a2fee55713409d4ce85894788eb 61e82a934140d513ae9009490717efa95fe64813 almulalic <almir.mulalic.am@gmail.com> 1622940950 +0200	commit: movies redesign
+61e82a934140d513ae9009490717efa95fe64813 628b6adf44893930b0e362c10fbaa4d52661f212 almulalic <almir.mulalic.am@gmail.com> 1623504588 +0200	commit: added imager servie
+628b6adf44893930b0e362c10fbaa4d52661f212 0e4d1c2cce943c6de8e4f9b5634db9dc4529ca78 almulalic <almir.mulalic.am@gmail.com> 1623504685 +0200	commit: removed static FILES from root
+0e4d1c2cce943c6de8e4f9b5634db9dc4529ca78 31f7f5ffa25bcfaeb3a1532db6895a6ecea3dfab almulalic <almir.mulalic.am@gmail.com> 1623507731 +0200	commit: added video service
+31f7f5ffa25bcfaeb3a1532db6895a6ecea3dfab 0e9e6fc4ff6940be7524c6d4155f780b04e20108 almulalic <almir.mulalic.am@gmail.com> 1623507848 +0200	commit: preservation v2
+0e9e6fc4ff6940be7524c6d4155f780b04e20108 5913ab79e99a295080d9b1f9d57eb03a1f780de9 almulalic <almir.mulalic.am@gmail.com> 1623509374 +0200	commit: finished multimedia service
+5913ab79e99a295080d9b1f9d57eb03a1f780de9 0aaf811f6fb8b0819d05f67176e30323d3bf69a3 almulalic <almir.mulalic.am@gmail.com> 1623626083 +0200	commit: added web apis
+0aaf811f6fb8b0819d05f67176e30323d3bf69a3 43d3e614389d1ddcad18df324926463d49401adf almulalic <almir.mulalic.am@gmail.com> 1623784546 +0200	commit: desktop app tweaks
+43d3e614389d1ddcad18df324926463d49401adf 675f1ec2bf988d9505558d068e6003a505afb09d almulalic <almir.mulalic.am@gmail.com> 1623784855 +0200	commit: test
+675f1ec2bf988d9505558d068e6003a505afb09d ee3a80e0714bd3e970707afaa4ae552564801005 almulalic <almir.mulalic.am@gmail.com> 1623857170 +0200	commit: added new types
+ee3a80e0714bd3e970707afaa4ae552564801005 fc613bb1c8dcb2698b6997dfbd3775bb2d22a234 almulalic <almir.mulalic.am@gmail.com> 1623862189 +0200	commit: desktop fix
+fc613bb1c8dcb2698b6997dfbd3775bb2d22a234 524cb8a697326233836d468c860c9944e15352cf almulalic <almir.mulalic.am@gmail.com> 1623872489 +0200	commit: final changes
+524cb8a697326233836d468c860c9944e15352cf 29d988595b6afe4054de1f16a7f78301a82a7e81 almulalic <almir.mulalic.am@gmail.com> 1623875278 +0200	commit: route subdir fix
+29d988595b6afe4054de1f16a7f78301a82a7e81 0edc78123c269ab9f4fab4ea93772d65f71abc1c almulalic <almir.mulalic.am@gmail.com> 1623875307 +0200	commit: route subdir fix2
+0edc78123c269ab9f4fab4ea93772d65f71abc1c 1dc2b3f5f34856650b041c058fc90dc31d8f3a39 almulalic <almir.mulalic.am@gmail.com> 1623875492 +0200	commit: role access fix
+1dc2b3f5f34856650b041c058fc90dc31d8f3a39 49f5f89dfce8888a48e0aabcf86698cc23917351 almulalic <almir.mulalic.am@gmail.com> 1623875674 +0200	commit: role access fix2
+49f5f89dfce8888a48e0aabcf86698cc23917351 149753c5bc9309e70c39edbe756eb3e25373de7f almulalic <almir.mulalic.am@gmail.com> 1623875773 +0200	commit: role access fix3
+149753c5bc9309e70c39edbe756eb3e25373de7f e68fb3a45e79f9a2ce7eb4d19a62a1a68a31d089 almulalic <almir.mulalic.am@gmail.com> 1623875875 +0200	commit: role access fix4
+e68fb3a45e79f9a2ce7eb4d19a62a1a68a31d089 deb29b9a1fe47b393f0aa02f24cc3c4a76b302bf almulalic <almir.mulalic.am@gmail.com> 1623876047 +0200	commit: role access fix5
+deb29b9a1fe47b393f0aa02f24cc3c4a76b302bf ddcd1885597c32107ad3242fcb9dfae7f3900489 almulalic <almir.mulalic.am@gmail.com> 1623876331 +0200	commit: role access fix6
+ddcd1885597c32107ad3242fcb9dfae7f3900489 a163c8f8f2b592acb3db7761f681587e39bd80fe almulalic <almir.mulalic.am@gmail.com> 1623876596 +0200	commit: role access fix7
+a163c8f8f2b592acb3db7761f681587e39bd80fe 1e80c2c029883289b9b4cf6bfc259a70e4b1bb14 almulalic <almir.mulalic.am@gmail.com> 1623877128 +0200	commit: fixed screenings route
+1e80c2c029883289b9b4cf6bfc259a70e4b1bb14 a426004d0074c30615da23642515218c18fad303 almulalic <almir.mulalic.am@gmail.com> 1623878229 +0200	commit: fixed user null error
+a426004d0074c30615da23642515218c18fad303 1e1b3ba8e18fb5a5bb811519161f4235e8aadb8c almulalic <almir.mulalic.am@gmail.com> 1623880899 +0200	commit: screenings adjusted
+1e1b3ba8e18fb5a5bb811519161f4235e8aadb8c 9965514e6790b80b208e9d530ff922849934c29a almulalic <almir.mulalic.am@gmail.com> 1624212611 +0200	commit: mali fix u tipovima
